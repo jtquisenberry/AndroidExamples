@@ -1,51 +1,68 @@
-# He-Man Games
+# Create a new AVD
 
-File Locations on devices with applicaiton running:
+* Pixel 4
+* API Level 30
+* Google Play Intel x86 Atom System Image
 
-# He-Man Tappers of Grayskull
+Start the AVD.
 
-* Device: AVD Pixel 4, Android API Level 30, rooted.
-* 
 
-* Package
+# Install the APK
+
+Drag and drop the APK from the host PC to the running AVD.
+
+# Root the AVD
+
+Follow the instructions "Root AVD Android Studio".
+
+# Copy the OBB
+
+Start the shell within the AVD using ADB on the host PC.
 
 ```
-# pm list packages | grep Tappers
-package:com.animocabrands.google.HeManTappersUniverse
-```
-* APK Location
-
-```
-# pm path com.animocabrands.google.HeManTappersUniverse
-package:/data/app/~~J_cb6WlpGMAtZh08IHFdzw==/com.animocabrands.google.HeManTappersUniverse-FGdcbcTp67kUEiOlPurnXA==/base.apk
+> adb shell
 ```
 
-* OBB Location
+Get root privileges. 
+
+```
+$ su
+generic_x86_arm:/ #
+```
+
+Navigate to obb/ directory
 
 ```
 # cd /sdcard/Android/obb
-# ls
-com.animocabrands.google.HeManTappersUniverse
 ```
 
-# View-Master
-
-* URL: https://play.google.com/store/apps/details?id=com.mattel.vmmastersoftheuniverse 
-
-* Package
+Create the directory for the OBB file. Give the directory the same name as the name of the package.
 
 ```
-# pm list packages | grep mattel
-package:com.mattel.vmmastersoftheuniverse
+# mkdir com.animocabrands.google.HeManTappersUniverse
 ```
 
-* APK Location
+Apply permissions to the directory
 
 ```
-# pm path com.mattel.vmmastersoftheuniverse
-package:/data/app/~~P0V9scQYstkx33SdSy6QEg==/com.mattel.vmmastersoftheuniverse-Yu2DWK1tK28NlQYo9wmfow==/base.apk
+# cd com.animocabrands.google.HeManTappersUniverse
+# chmod -R 777 .
 ```
-* OBB Location
 
+Exit the ADB shell.
 
+```
+# exit
+$ exit
+>
+```
 
+Copy the OBB file from the host PC to the AVD.
+
+```
+> adb Tappers_of_Grayskull\com.animocabrands.google.HeManTappersUniverse.obb /sdcard/Android/obb/com.animocabrands.google.HeManTappersUniverse/
+```
+
+# Restart the AVD
+
+# Run the Game
