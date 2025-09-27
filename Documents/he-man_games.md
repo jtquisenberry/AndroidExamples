@@ -35,6 +35,10 @@ package:/data/app/~~J_cb6WlpGMAtZh08IHFdzw==/com.animocabrands.google.HeManTappe
 /sdcard/Android/obb/com.animocabrands.google.HeManTappersUniverse/main.258.com.animocabrands.google.HeManTappersUniverse.obb
 ```
 
+* Supported Application Binary Interfaces (ABIs)
+  * armeabi-v7a (ARMv7-A, 32-bit)
+  * x86
+
 
 # He-Man: The Most Powerful Game in the Universe
 
@@ -66,6 +70,9 @@ package:/data/app/~~g9O7Liivy0iTTRcxOEww9A==/com.chillingo.heman.android.ajagpla
 /sdcard/Android/obb/com.chillingo.heman.android.ajagplay/main.103.com.chillingo.heman.android.ajagplay.obb
 ```
 
+* Supported Application Binary Interfaces (ABIs)
+  * armeabi-v7a (ARMv7-A, 32-bit)
+
 
 # Masters of the Universe VR (View-Master)
 
@@ -90,4 +97,47 @@ package:/data/app/~~P0V9scQYstkx33SdSy6QEg==/com.mattel.vmmastersoftheuniverse-Y
 * OBB Location
 
 None
+
+* Supported Application Binary Interfaces (ABIs)
+  * armeabi-v7a (ARMv7-A, 32-bit)
+
+
+
+# Devices
+
+## Android Galaxy A71
+Specs
+* Android 13
+* ARM 64 CPU
+
+
+Plays
+* He-Man: The Most Powerful Game in the Universe
+* He-Man: Tappers of Grayskull
+* Masters of the Universe VR (View-Master)
+
+
+# Emulators
+
+## Android Studio AVD
+
+Plays 
+* He-Man: Tappers of Grayskull
+* Masters of the Universe VR (View-Master)
+
+
+Setup
+
+* Create an virtual device based on Pixel 4. 
+* Select the image Google Play Intel x86 Atom System Image.
+
+
+## BlueStacks App Player
+
+Plays
+* He-Man: The Most Powerful Game in the Universe
+
+Setup
+* Set Settings -> Graphics -> Graphics engine mode = Performance to run He-Man: The Most Powerful Game in the Universe.
+
 
