@@ -40,7 +40,7 @@ package:/data/app/~~J_cb6WlpGMAtZh08IHFdzw==/com.animocabrands.google.HeManTappe
 
 * URL
 
-https://play.google.com/store/apps/details?id=com.mattel.vmmastersoftheuniverse
+https://play.google.com/store/apps/details?id=com.chillingo.heman.android.ajagplay
 
 ## Version 1.0.3
 
