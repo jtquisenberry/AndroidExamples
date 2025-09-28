@@ -8,8 +8,7 @@ File Locations on devices with applicaiton running:
 
 * URL
 
-
-Does not exist as of September 24, 2025.
+https://play.google.com/store/apps/details?id=com.animocabrands.google.HeManTappersUniverse
 
 
 ## Version 3.3.1
